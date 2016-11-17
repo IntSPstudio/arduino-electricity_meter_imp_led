@@ -1,33 +1,37 @@
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Created by https://www.gitignore.io/api/windows,linux
 
-# Precompiled Headers
-*.gch
-*.pch
+### Windows ###
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Folder config file
+Desktop.ini
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
 
-# Debug files
-*.dSYM/
-*.su
+# Windows shortcuts
+*.lnk
+
+
+### Linux ###
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
